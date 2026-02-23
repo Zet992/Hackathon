@@ -88,6 +88,7 @@
 
 ### Симуляция работы БПЛА
 
-https://github.com/user-attachments/assets/d1c73efa-db70-48f9-bbae-027647e93260
+https://github.com/user-attachments/assets/29ccf694-0a80-4408-a8b2-8dd9e359c59a
+
 
 
