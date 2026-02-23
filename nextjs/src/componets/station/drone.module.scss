@@ -1,0 +1,51 @@
+.Drone {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 12px;
+	border-radius: 10px;
+	background-color: #F5F5F5;
+	padding: 12px;
+
+	&__Icon {
+		width: 32px;
+		height: 32px;
+	}
+
+	&__Content {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		&__Status {
+			font-weight: 600;
+			text-align: start;
+			padding: 5px;
+			border-radius: 13px;
+			color: white;
+
+			&_work {
+				background-color: #989898;
+			}
+			&_inStation {
+				background-color: #000;
+			}
+			&_onCharge {
+				background-color: #1CBC5E;
+			}
+			&_offline {
+				background-color: #D20202;
+			}
+		}
+
+		&__Power {
+			height: 100%;
+			gap: 5px;
+			display: flex;
+			align-items: center;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+.Station {
+	width: 100%;
+	max-width: 370px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+
+	&__Modul {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+
+		h3 {
+			font-size: 36px;
+			color: black;
+		}
+
+		&__Content {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+			gap: 12px;
+
+			&__Text {
+				width: 100% !important;
+				text-align: start !important;
+				justify-content: start;
+			}
+		}
+	}
+
+	&__Drone {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		height: 100%;
+		overflow: auto;
+
+		::-webkit-scrollbar{
+			display: none;
+		}
+
+		h3 {
+			font-size: 36px;
+			color: black;
+		}
+	}
+}

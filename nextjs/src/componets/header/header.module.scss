@@ -1,0 +1,22 @@
+.Header {
+	width: 100%;
+	max-height: 78px;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+
+	&__Form {
+		padding: 7px 50px !important;
+		display: flex;
+		align-items: center;
+	}
+
+	&__Text {
+		font-size: 36px;
+		color: black;
+		display: flex;
+		align-items: center;
+	}
+}
